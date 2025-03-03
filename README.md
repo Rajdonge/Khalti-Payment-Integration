@@ -1,65 +1,79 @@
-Khalti Payment Integration
+# 🚀 Khalti Payment Integration  
 
-This project demonstrates the integration of Khalti payment gateway using Python for the backend and a JavaScript-based frontend.
+This project demonstrates the integration of the **Khalti payment gateway** using **Python** (Django) for the backend and **JavaScript** (React) for the frontend.
 
-Project Structure
+---
 
-Frontend: Contains the React-based frontend code.
+## 📂 Project Structure  
 
-mypay (Backend): Django-based backend for handling payments.
+Khalti-Payment-Integration/ │── frontend/ # React-based frontend │── mypay/ # Django backend for payments │── README.md # Project documentation
 
-Prerequisites
+yaml
+Copy
+Edit
 
-Ensure you have the following installed:
+## ✅ Prerequisites  
 
-Node.js & npm
+Ensure you have the following installed:  
 
-Python & pip
+| Dependency  | Version |
+|------------|---------|
+| Node.js    | Latest  |
+| npm        | Latest  |
+| Python     | 3.x     |
+| Django     | Latest  |
 
-Django
+---
 
-Installation & Setup
+## 🔧 Installation & Setup  
 
-Clone the Repository
-
+### 🖥️ Clone the Repository  
+```sh
 git clone https://github.com/Rajdonge/Khalti-Payment-Integration
 cd Khalti-Payment-Integration
-
-Frontend Setup
-
+🚀 Frontend Setup
+sh
+Copy
+Edit
 cd frontend
 npm install
 npm run dev
+Available Routes:
 
-The frontend exposes the following endpoints:
-
-/checkout - To initiate the payment process
-
-/confirm-payment - To confirm and verify payments
-
-Backend Setup
-
+/checkout - Initiate payment
+/confirm-payment - Confirm and verify payments
+🛠️ Backend Setup
+sh
+Copy
+Edit
 cd mypay
 pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+The backend provides API endpoints for secure payment verification.
 
-The backend runs on Django and provides necessary API endpoints for payment verification.
+🎯 Features
+✔ Khalti payment gateway integration
+✔ Secure backend handling of transactions
+✔ Frontend UI for processing payments
 
-Features
-
-Khalti payment gateway integration
-
-Secure backend handling of payments
-
-Frontend UI for processing payments
-
-License
-
+📜 License
 This project is open-source. Feel free to use and modify it as needed.
 
-Author
-
+👨‍💻 Author
 Developed by Bibek Dhimal.
 
+Would you like to add more details, such as API request examples or images? 🚀
+
+vbnet
+Copy
+Edit
+
+This version enhances **clarity, readability, and visual appeal** with:  
+✅ Code blocks  
+✅ Emojis for engagement  
+✅ Tables for structured info  
+✅ Proper headings & formatting  
+
+Developed by Bibek Dhimal.
